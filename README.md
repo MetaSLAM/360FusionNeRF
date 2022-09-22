@@ -26,11 +26,6 @@ cd CLIP
 pip install -e .
 ```
 
-Login to Weights & Biases:
-```
-wandb login
-```
-
 ## How to run
 ```
 python run_nerf.py --config configs/st3d.txt
