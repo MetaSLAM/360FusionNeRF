@@ -1,6 +1,6 @@
 # 360FusionNeRF: Panoramic Neural Radiance Fields with Joint Guidance
 
-[Paper]()
+[[arXiv]](https://arxiv.org/abs/2209.14265)
 
 ## Setup
 
