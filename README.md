@@ -1,5 +1,5 @@
 # 360FusionNeRF: Panoramic Neural Radiance Fields with Joint Guidance
-## A method to synthesize novel views from a single 360-degree panorama image based on the neural radiance field (NeRF). This method can render high-resolution 360 camera images based on only one LiDAR Scan and one 360 images. 
+
 
 <a href="https://www.youtube.com/embed/JN0OsU-92XA" target="_blank"><img src="http://img.youtube.com/vi/JN0OsU-92XA/0.jpg" 
 alt="cla" width="640" height="480" border="10" /></a>
