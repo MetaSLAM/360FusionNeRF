@@ -5,7 +5,9 @@
 alt="cla" width="640" height="480" border="10" /></a>
 
 
-<img src="room1.gif" alt="Room1" width="240" height="120"> <img src="room2.gif" alt="Room2" width="240" height="120"> <img src="room3.gif" alt="Room3" width="240" height="120"> <img src="room4.gif" alt="Room4" width="240" height="120">
+<img src="room1.gif" alt="Room1" width="360" height="180"> <img src="room2.gif" alt="Room2" width="360" height="180"> 
+
+<img src="room3.gif" alt="Room3" width="360" height="180"> <img src="room4.gif" alt="Room4" width="360" height="180">
 
 ## Setup
 
