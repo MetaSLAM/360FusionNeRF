@@ -4,10 +4,13 @@
 <a href="https://www.youtube.com/embed/JN0OsU-92XA" target="_blank"><img src="http://img.youtube.com/vi/JN0OsU-92XA/0.jpg" 
 alt="cla" width="640" height="480" border="10" /></a>
 
+## Overview
 
-<img src="room1.gif" alt="Room1" width="360" height="180"> <img src="room2.gif" alt="Room2" width="360" height="180"> 
+[[arXiv]](https://arxiv.org/abs/2209.14265)
 
-<img src="room3.gif" alt="Room3" width="360" height="180"> <img src="room4.gif" alt="Room4" width="360" height="180">
+ We present a method to synthesize novel views from a single 360∘ panorama image based on the neural radiance field (NeRF). Prior studies in a similar setting rely on the neighborhood interpolation capability of multi-layer perceptions to complete missing regions caused by occlusion, which leads to artifacts in their predictions. We propose 360FusionNeRF, a semi-supervised learning framework where we introduce geometric supervision and semantic consistency to guide the progressive training process. Firstly, the input image is re-projected to 360∘ images, and auxiliary depth maps are extracted at other camera positions. The depth supervision, in addition to the NeRF color guidance, improves the geometry of the synthesized views. Additionally, we introduce a semantic consistency loss that encourages realistic renderings of novel views. We extract these semantic features using a pre-trained visual encoder such as CLIP, a Vision Transformer trained on hundreds of millions of diverse 2D photographs mined from the web with natural language supervision. Experiments indicate that our proposed method can produce plausible completions of unobserved regions while preserving the features of the scene. When trained across various scenes, 360FusionNeRF consistently achieves the state-of-the-art performance when transferring to synthetic Structured3D dataset (PSNR~5%, SSIM~3% LPIPS~13%), real-world Matterport3D dataset (PSNR~3%, SSIM~3% LPIPS~9%) and Replica360 dataset (PSNR~8%, SSIM~2% LPIPS~18%).
+
+
 
 ## Setup
 
