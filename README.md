@@ -4,6 +4,9 @@
 <a href="https://www.youtube.com/embed/JN0OsU-92XA" target="_blank"><img src="http://img.youtube.com/vi/JN0OsU-92XA/0.jpg" 
 alt="cla" width="640" height="480" border="10" /></a>
 
+
+<img src="room1.gif" alt="Room1" width="240" height="120"> <img src="room2.gif" alt="Room2" width="240" height="120"> <img src="room3.gif" alt="Room3" width="240" height="120"> <img src="room4.gif" alt="Room4" width="240" height="120">
+
 ## Setup
 
 We use the following folder structure:
@@ -39,7 +42,7 @@ See the file [generate.py](https://github.com/MetaSLAM/360FusionNeRF/tree/main/g
 ## Citation
 If you find our work useful in your research, please consider citing:
 
-	@article{shreyas2016nerf360,
+	@article{shreyas2022nerf360,
 	  title={360FusionNeRF: Panoramic Neural Radiance Fields with Joint Guidance},
 	  author={Shreyas Kulkarni, Peng Yin, and Sebastian Scherer},
 	  journal={arXiv preprint arXiv:2209.14265},
