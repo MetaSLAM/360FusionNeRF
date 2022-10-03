@@ -1,6 +1,8 @@
 # 360FusionNeRF: Panoramic Neural Radiance Fields with Joint Guidance
+## A method to synthesize novel views from a single 360-degree panorama image based on the neural radiance field (NeRF). This method can render high-resolution 360 camera images based on only one LiDAR Scan and one 360 images. 
 
-[[arXiv]](https://arxiv.org/abs/2209.14265)
+<a href="https://www.youtube.com/embed/JN0OsU-92XA" target="_blank"><img src="http://img.youtube.com/vi/JN0OsU-92XA/0.jpg" 
+alt="cla" width="640" height="480" border="10" /></a>
 
 ## Setup
 
@@ -35,5 +37,13 @@ You could also generate data from your own panorama.
 See the file [generate.py](https://github.com/MetaSLAM/360FusionNeRF/tree/main/generate_data/generate.py) for more details.
 
 ## Citation
+If you find our work useful in your research, please consider citing:
 
+	@article{shreyas2016nerf360,
+	  title={360FusionNeRF: Panoramic Neural Radiance Fields with Joint Guidance},
+	  author={Shreyas Kulkarni, Peng Yin, and Sebastian Scherer},
+	  journal={arXiv preprint arXiv:2209.14265},
+	  year={2022}
+	}
+   
 The code is based on [DietNeRF](https://github.com/ajayjain/DietNeRF) and [OmniNeRF](https://github.com/cyhsu14/OmniNeRF) codes.
